@@ -1,0 +1,50 @@
+@import url(reset.css);
+@import url(variables.css);
+
+body {
+  background-color: var(--primary-color);
+  color: var(--contrast-dark-color);
+  font-family: var(--font-family);
+  overflow-x: hidden;
+}
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+
+
+@media (max-width: 360px) {
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: calc((100vw - 1000px)/4);
+    padding-right: calc((100vw - 1000px)/4);
+  }
+}

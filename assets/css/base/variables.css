@@ -1,0 +1,121 @@
+:root {
+  --font-family: 'Raleway', sans-serif;
+
+  /* Colores */
+  --button-color: #2A7AE4;
+  --contrast-dark-color: #464646;
+  --contrast-ligth-color: #EEEEEE;
+  --gray-color: #A2A2A2;
+  --input-border-color: #C8C8C8;
+  --primary-color: #F5F5F5;
+  --secundary-color: #EAF2FD;
+  --white-color: #ffffff;
+
+
+  /* Font-size */
+  --font-size-button: 16px;
+  --font-size-footer-link: 16px;
+  --font-size-hero-subsection: 22px;
+  --font-size-hero-title: 52px;
+  --font-size-login:18px;
+  --font-size-new-product-title: 32px;
+  --font-size-productos-title: 32px;
+  --font-size-productos-vertodo: 16px;
+  --font-size-productos-info: 14px;
+  --font-size-rodapie: 16px;
+
+
+  /* Height */
+  --height-footer: 23rem;
+  --height-footer-container: 14.625rem;
+  --height-footer-container-link:14.625rem;
+  --height-header-button: 3rem;
+  --height-hero: 22rem;
+  --height-hero-button: 3.1875rem;
+  --height-input:3.5rem;
+  --height-login-container: 18rem;
+  --height-login-button:3.875rem;
+  --height-producto-img: 100%;
+  --height-textarea:5.125rem;
+
+
+  /* Margin */
+  --margin-bottom-login-input:1.5rem;
+  --margin-left-header-buscador: 3rem;
+
+  /* Padding */
+  --padding-footer-container: 4rem;
+  --padding-header-container: 2rem;
+
+  /* Width */
+  --width-header-buscador: 25rem;
+  --width-header-button: 11rem;
+  --width-hero-button: 9rem;
+  --width-login-container: 26rem;
+  --width-producto-img: 100%;
+
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* Font-size */
+    --font-size-button: 14px;
+    --font-size-footer-link: 14px;
+    --font-size-login:16px;
+    --font-size-new-product-title: 22px;
+    --font-size-productos-title: 22px;
+    --font-size-productos-vertodo: 16px;
+    --font-size-rodapie: 14px;
+
+
+    /* Height */
+    --height-footer: 22.75rem;
+    --height-footer-container: 22.75rem;
+    --height-footer-container-link:12.125rem;
+    --height-header-button: 2.5rem;
+    --height-hero-button: 2.5rem;
+    --height-input:2.5rem;
+    --height-login-container: 12rem;
+    --height-login-button: 2.5rem;
+    --height-producto-img: 10.875rem;
+
+
+    /* Margin */
+    --margin-bottom-login-input:1rem;
+    --margin-left-header-buscador: 1rem;
+    
+    /* Padding */
+    --padding-footer-container: 2rem;
+    --padding-header-container: 1rem;
+
+    /* Width */
+    --width-header-buscador: 17rem;
+    --width-header-button: 10rem;
+    --width-hero-button: 7.375rem;
+    --width-login-container: 17rem;
+    --width-producto-img: 10.25rem;
+
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    /* Font-size */
+    --font-size-button: 12px;
+    --font-size-hero-title: 22px;
+    --font-size-hero-subsection: 14px;
+    --font-size-productos-vertodo: 14px;
+
+    /* Height */
+    --height-footer: 35rem;
+    --height-hero: 12rem;
+    --height-producto-img: 10.875rem;
+
+    /* Padding */
+    --padding-footer-container: 1rem;
+
+    /* Width */
+    --width-header-button: 8.3125rem;
+    --width-producto-img: 9.75rem;
+  }
+}
