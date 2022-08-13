@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek</title>
+    <title>Home</title>
 
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Iconos -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -22,7 +23,7 @@
     <link rel="stylesheet" href="../assets/css/base/base.css">
     <link rel="stylesheet" href="../assets/css/components/home/header.css">
     <link rel="stylesheet" href="../assets/css/components/home/hero.css">
-    <link rel="stylesheet" href="../assets/css/components/home/category.css">
+    <link rel="stylesheet" href="../assets/css/components/home/products.css">
     <link rel="stylesheet" href="../assets/css/components/home/footer.css">
     <link rel="stylesheet" href="../assets/css/components/home/rodapie.css">
 
@@ -32,11 +33,14 @@
     <!-- Sección header -->
     <section class="header container">
         <header class="header--izquierda">
-            <img src="../assets/img/logo.png" alt="Logotipo AluraGeek" class="header__logo" />
-            <div class="header__buscador">               
-                <input type="search" class="header__buscador-input" placeholder="¿Qué desea buscar?">
-                <i class="header__buscador-icon fa fa-search"></i>
+            <a href="./home.html"><img src="../assets/img/logo.png" alt="Logotipo AluraGeek" class="header__logo" /></a>
+            <div class="header__buscador">
+                <form>
+                    <input type="search" class="header__buscador-input" placeholder="¿Qué desea buscar?" data-buscador>
+                    <i class="header__buscador-icon fa fa-search"></i>
+                </form>
             </div>
+            <div class="header__resultado"></div>
         </header>
         <button class="header__login-boton"><a href="/screens/login.html">Login</a></button>
         <i class="header__buscador-icon-responsive fa fa-search"></i>
@@ -50,7 +54,7 @@
             <div class="hero__title container">
                 <h1 class="hero__title__info">Febrero Promocional</h1>
                 <h3 class="hero__title__subsection">Productos seleccionados con 33% de descuento</h3>
-                <button href="./login.html" class="hero__title-button">Ver Consolas</button>
+                <button class="hero__title-button"><a href="#category-consolas">Ver Consolas</a></button>
             </div>
         </div>
     </section>
@@ -66,135 +70,27 @@
             <div class="productos__header">
                 <h2 class="productos__title">Star Wars</h2>
                 <div class="productos__header--vertodo">
-                    <a class="productos__header-link" href="#">Ver Todo</a>
+                    <a class="productos__header-link" href="/screens/all-products.html">Ver Todo</a>
                     <i class="productos__header-icon fas fa-arrow-right"></i>
                 </div>
             </div>
 
-            <div class="productos__line">
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_1.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_2.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_3.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_4.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_5.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/starwars_6.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="productos__line" data-starwars></div>
         </div>
 
 
 
         <!-- Categoria Consolas -->
-        <div class="productos__category">
+        <div class="productos__category" id="category-consolas">
             <div class="productos__header">
                 <h2 class="productos__title">Consolas</h2>
                 <div class="productos__header--vertodo">
-                    <a class="productos__header-link" href="#">Ver Todo</a>
+                    <a class="productos__header-link" href="/screens/all-products.html">Ver Todo</a>
                     <i class="productos__header-icon fas fa-arrow-right"></i>
                 </div>
             </div>
 
-            <div class="productos__line">
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_1.png" alt=""></li>
-                        <li class="producto__name">Control XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_2.png" alt=""></li>
-                        <li class="producto__name">Control y consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_3.png" alt=""></li>
-                        <li class="producto__name">Consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_4.png" alt=""></li>
-                        <li class="producto__name">Control XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_5.png" alt=""></li>
-                        <li class="producto__name">Consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/consolas_6.png" alt=""></li>
-                        <li class="producto__name">Game Boy Color XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-            </div>
+            <div class="productos__line" data-consolas></div>
         </div>
 
 
@@ -204,65 +100,13 @@
             <div class="productos__header">
                 <h2 class="productos__title">Diversos</h2>
                 <div class="productos__header--vertodo">
-                    <a class="productos__header-link" href="#">Ver Todo</a>
+                    <a class="productos__header-link" href="/screens/all-products.html">Ver Todo</a>
                     <i class="productos__header-icon fas fa-arrow-right"></i>
                 </div>
             </div>
 
-            <div class="productos__line">
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_1.png" alt=""></li>
-                        <li class="producto__name">Camisa Atari XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
+            <div class="productos__line" data-diversos>
 
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_2.png" alt=""></li>
-                        <li class="producto__name">Camisa SNES XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_3.png" alt=""></li>
-                        <li class="producto__name">Control y Consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_4.png" alt=""></li>
-                        <li class="producto__name">Control y consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_5.png" alt=""></li>
-                        <li class="producto__name">Control y consola XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
-
-                <div class="producto__box">
-                    <ul>
-                        <li class="producto__img"><img src="/assets/img/diversos_6.png" alt=""></li>
-                        <li class="producto__name">Producto XYZ</li>
-                        <li class="producto__price">$60</li>
-                        <li class="producto__button"><button  class="producto__button-verprod">Ver Producto</button></li>
-                    </ul>
-                </div>
             </div>
         </div>
 
@@ -290,16 +134,17 @@
             <div class="footer__contacto">
                 <h2 class="footer__contacto-title">Hable con nosotros</h2>
 
-                <form action="" class="footer__form">
+                <form action="" class="footer__form" data-footer>
 
                     <div class="footer__input-container">
-                        <input class="footer__input" type="text" name="name" placeholder="Nombre">
+                        <input class="footer__input" type="text" name="name" placeholder="Nombre" required
+                            maxlength="40" data-tipo="nombreFooter">
                         <span class="input-message-error"></span>
                     </div>
 
                     <div class="footer__input-container">
-                        <textarea class="footer__textarea" placeholder="Escribe tu mensaje" name="mensaje" cols="30"
-                            rows="10"></textarea>
+                        <textarea class="footer__textarea" placeholder="Escribe tu mensaje" name="mensaje" required
+                            maxlength="120" data-tipo="mensajeFooter"></textarea>
                         <span class="input-message-error"></span>
                     </div>
 
@@ -323,7 +168,9 @@
     </section>
 
     <!-- Script del documento JavaScript -->
-
+    <script type="module" src="/controllers/productos-home-controller.js"></script>
+    <script type="module" src="/controllers/inputs-controller.js"></script>
+    <script type="module" src="/controllers/buscar-productos-controller.js"></script>
 </body>
 
 </html>
