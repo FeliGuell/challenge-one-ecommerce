@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-
+    <title>Productos</title>
     <!-- Fuente -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,11 +22,11 @@
     <link rel="stylesheet" href="../assets/css/base/base.css">
     <link rel="stylesheet" href="../assets/css/components/home/header.css">
     <link rel="stylesheet" href="../assets/css/components/home/hero.css">
-    <link rel="stylesheet" href="../assets/css/components/home/products.css">
     <link rel="stylesheet" href="../assets/css/components/home/footer.css">
     <link rel="stylesheet" href="../assets/css/components/home/rodapie.css">
-    <link rel="stylesheet" href="../assets/css/components/login.css">
-
+    <link rel="stylesheet" href="../assets/css/components/home/products.css">
+    <link rel="stylesheet" href="../assets/css/components/products-admin.css">
+    <link rel="stylesheet" href="../assets/css/components/product-description.css">
 </head>
 
 <body>
@@ -36,39 +35,30 @@
         <header class="header--izquierda">
             <a href="./home.html"><img src="../assets/img/logo.png" alt="Logotipo AluraGeek" class="header__logo" /></a>
             <div class="header__buscador">
-                <form>
-                    <input type="search" class="header__buscador-input" placeholder="¿Qué desea buscar?" data-buscador>
-                    <i class="header__buscador-icon fa fa-search"></i>
-                </form>
+                <input type="search" class="header__buscador-input" placeholder="¿Qué desea buscar?">
+                <i class="header__buscador-icon fa fa-search"></i>
             </div>
-            <div class="header__resultado"></div>
         </header>
+        <button class="header__login-boton"> <a href="/screens/login.html">Login</a></button>
         <i class="header__buscador-icon-responsive fa fa-search"></i>
     </section>
 
 
-    <!-- Sección del Login -->
-    <section class="login container">
-        <div class="login__container">
-            <h2 class="login__title">Iniciar Sesión</h2>
-
-            <form action="" class="login__form" data-login>
-                <div class="login__input-container">
-                    <input class="login__input" type="email" name="email" placeholder="admin@admin.com" required data-tipo="emailLogin" data-email>
-                    <span class="input-message-error"></span>
-                </div>
-
-
-                <div class="login__input-container">
-                    <input class="login__input" type="password" name="password" placeholder="admin" required data-tipo="contrasenaLogin" data-contrasena>
-                    <span class="input-message-error"></span>
-                </div>
-
-                <input type="submit" value="Entrar" class="login__button" data>
-                <span class="input-message-error-login"></span>
-            </form>
-        </div>
+    <!-- Sección del producto -->
+    <section class="producto-description container" data-producto-description>
     </section>
+
+
+
+    <!-- Sección de productos similares -->
+    <section class="productos container">
+        <div class="productos__header">
+            <h2 class="productos__title">Productos Similares</h2>
+            <button class="productos__header-button"><a href="./home.html">Volver</a></button>
+        </div>
+        <div class="productos__line" data-starwars data-consolas data-diversos></div>
+    </section>
+
 
 
     <!-- Sección Footer -->
@@ -95,12 +85,14 @@
                 <form action="" class="footer__form" data-footer>
 
                     <div class="footer__input-container">
-                        <input class="footer__input" type="text" name="name" placeholder="Nombre" required maxlength="40" data-tipo="nombreFooter">
+                        <input class="footer__input" type="text" name="name" placeholder="Nombre" required
+                            maxlength="40" data-tipo="nombreFooter">
                         <span class="input-message-error"></span>
                     </div>
 
                     <div class="footer__input-container">
-                        <textarea class="footer__textarea" placeholder="Escribe tu mensaje" name="mensaje"  required maxlength="120" data-tipo="mensajeFooter"></textarea>
+                        <textarea class="footer__textarea" placeholder="Escribe tu mensaje" name="mensaje" required
+                            maxlength="120" data-tipo="mensajeFooter"></textarea>
                         <span class="input-message-error"></span>
                     </div>
 
@@ -108,10 +100,10 @@
                 </form>
             </div>
 
-
         </div>
 
     </section>
+
 
 
 
@@ -125,9 +117,9 @@
     </section>
 
     <!-- Script del documento JavaScript -->
+    <script type="module" src="/controllers/productos-home-controller.js"></script>
     <script type="module" src="/controllers/inputs-controller.js"></script>
-    <script type="module" src="/controllers/login-controller.js"></script>
-    <script type="module" src="/controllers/buscar-productos-controller.js"></script>
+    <script type="module" src="/controllers/producto-description-controller.js"></script>
 </body>
 
 </html>

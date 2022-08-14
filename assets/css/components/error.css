@@ -1,0 +1,7 @@
+.register-card__icon-error{
+    display: block;
+    text-align: center;
+    font-size: var(--font-size-register-icon);
+    margin-bottom: 1rem;
+    color:var(--info-color);
+}

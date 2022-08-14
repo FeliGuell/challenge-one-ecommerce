@@ -1,0 +1,121 @@
+.productos {
+    margin: 4rem 0;
+}
+
+.productos__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productos__header-button {
+    font-size: var(--font-size-button);
+    border: none;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    width: 10rem;
+    height: 3.1875rem;
+    box-shadow: 0 0 40px 40px var(--button-color) inset, 0 0 0 0 var(--button-color);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.productos__header-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 var(--button-color) inset, 0 0 10px 4px var(--button-color);
+    color: var(--button-color);
+    background-color: var(--primary-color);
+}
+
+.productos__line{
+    gap: 1rem;
+}
+
+.producto__box{
+    position: relative;
+}
+
+.producto__button:hover{
+    cursor: pointer;
+}
+
+.producto__icon-trash {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    color: var(--button-color);
+}
+
+
+.producto__icon-trash:hover,
+.producto__icon-pencil:hover{
+    font-size: 18px;
+}
+
+
+.producto__icon-pencil {
+    position: absolute;
+    top: 5%;
+    left: 85%;
+    color: var(--button-color);
+}
+
+.producto__id{
+    margin-left: 0.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .producto__box {
+        display: grid !important;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .productos__line {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .productos {
+        margin: 2rem 0;
+    }
+
+    .productos__line{
+        gap: 0.5rem;
+    }
+
+    .producto__icon-trash {
+        left: 65%;
+    }
+
+    .producto__icon-pencil {
+        left: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    .productos {
+        margin:2rem 0;
+    }
+
+    .productos__header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .productos__title {
+        margin-bottom: 1rem;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

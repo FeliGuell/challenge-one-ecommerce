@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--secundary-color);
     height: var(--height-footer);
+    box-shadow: var(--box-shadow);
 }
 
 .footer__container {
@@ -37,6 +38,10 @@
     font-size: var(--font-size-footer-link);
 }
 
+.footer__link:hover {
+    font-size: 18px;
+}
+
 .footer__contacto {
     display: flex;
     flex-direction: column;
@@ -64,12 +69,15 @@
     width: 100%;
 }
 
+.footer__input:hover{
+    border-bottom: 2px solid var(--button-color);
+}
+
 .footer__input::placeholder {
     padding-left: 0.5rem;
     color: var(--gray-color);
     font-size: var(--font-size-footer-link);
 }
-
 
 .footer__textarea {
     background-color: var(--white-color);
@@ -88,6 +96,10 @@
     font-size: var(--font-size-footer-link);
 }
 
+.footer__textarea:hover{
+    border-bottom: 2px solid var(--button-color);
+}
+
 .footer__button {
     font-size: var(--font-size-button);
     border: none;
@@ -95,10 +107,26 @@
     color: var(--primary-color);
     width: 8rem;
     height: 3.1875rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 40px 40px var(--button-color) inset, 0 0 0 0 var(--button-color);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .footer__button:hover{
     cursor: pointer;
+    box-shadow: 0 0 10px 0 var(--button-color) inset, 0 0 10px 4px var(--button-color);
+    color: var(--button-color);
+    background-color: var(--primary-color);
+}
+
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+
+.input-message-error{
+    color: var(--info-color);
+    font-size: var(--font-size-footer-link);
 }
 
 
@@ -132,6 +160,10 @@
         margin: 0;
     }
 
+    .footer__link:hover {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -160,4 +192,6 @@
         width: 20.5rem;
         height: auto;
     }
+
+    
 }

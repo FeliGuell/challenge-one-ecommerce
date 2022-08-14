@@ -1,0 +1,172 @@
+{
+  "perfil": [
+    {
+      "name": "Consola Xbox Series ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00088984264076-2l.jpg",
+      "price": "12798",
+      "description": "La consola Xbox más rápida y potente de la historia\n\nJuega miles de títulos de cuatro generaciones de consolas\n\nGran velocidad y rendimiento impulsada",
+      "category": "consolas",
+      "id": 15
+    },
+    {
+      "name": "Nintendo Switch ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/images/product-images/img_large/00004549688216-1l.jpg",
+      "price": "5848",
+      "description": "Todas las fallas corregidas de la primera versión\n\nLa duración mejorada de la batería\n\nPortátil",
+      "category": "consolas",
+      "id": 16
+    },
+    {
+      "name": "Control DualShock ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00071171950431-2l.jpg",
+      "price": "1495",
+      "description": "Empuñaduras antideslizantes\n\nBotones de gatillo y hombros con textura\n\nRetroalimentación de la vibración",
+      "category": "consolas",
+      "id": 17
+    },
+    {
+      "name": "Control Sony ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00071171954693l.jpg",
+      "price": "1597",
+      "description": "Control PS5 negro\n\nEmpuñaduras antideslizantes\n\nBotones de gatillo y hombros con textura",
+      "category": "consolas",
+      "id": 18
+    },
+    {
+      "name": "PlayStation 5",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00071171954890l.jpg",
+      "price": "11499",
+      "description": "Experimenta una velocidad sorprendente gracias a su SSD de alta velocidad\n\nTendrás una nueva experiencia totalmente inmersiva\n\nDisfruta de la potencia",
+      "category": "consolas",
+      "id": 19
+    },
+    {
+      "name": "Xbox Series S ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00088984265135l.jpg",
+      "price": "6099",
+      "description": "La consola no reproduce discos físicos\nTotalmente digital, ofrece juegos de próxima generación a un precio accesible",
+      "category": "consolas",
+      "id": 20
+    },
+    {
+      "name": "Xbox Series X",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00088984271694l.jpg",
+      "price": "1649",
+      "description": "Empuñaduras antideslizantes\n\nBotones de gatillo y hombros con textura",
+      "category": "consolas",
+      "id": 21
+    },
+    {
+      "name": "HyperX CloudX",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00074061729543l.jpg",
+      "price": "999",
+      "description": "Compatible con Xbox (One, Series S, Series X)\n\nAlmohadillas de Memory Foam",
+      "category": "diversos",
+      "id": 22
+    },
+    {
+      "name": "Resident Evil",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00001338893900-1l.jpg",
+      "price": "799",
+      "description": "Vive el horror de supervivencia como nunca antes\n\nAcción en primera persona en el octavo episodio principal de la saga",
+      "category": "diversos",
+      "id": 23
+    },
+    {
+      "name": "Mortal Kombat 11",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00088392972766-2l.jpg",
+      "price": "849",
+      "description": "Experimente 2 campañas de historias Mk11 y Mk11: Aftermath.\nFatalities de escenario ¡La clásica maniobra final está de vuelta! ",
+      "category": "diversos",
+      "id": 24
+    },
+    {
+      "name": "Hasbro Jar Jar ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099378268l.jpg",
+      "price": "874",
+      "description": "Ideal para regalo\nPasa increíbles momentos de diversión\nArticulada para que puedas tener mas libertar a la hora de jugar\n",
+      "category": "starwars",
+      "id": 25
+    },
+    {
+      "name": "Moff Gideon ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099378996l.jpg",
+      "price": "846",
+      "description": "Star Wars The Black Series Figura de Moff Gideon a escala de 15 cm\nEdad: 4 años en adelante\nMoff Gideon está completamente decidido a capturar una cie",
+      "category": "starwars",
+      "id": 26
+    },
+    {
+      "name": "Peluche Yoda",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099376150l.jpg",
+      "price": "1095",
+      "description": "Juguete de peluche que habla\nCon sonidos del personaje y accesorios\nBasado en The Mandalorian",
+      "category": "starwars",
+      "id": 27
+    },
+    {
+      "name": "Gran Almirante ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099381340l.jpg",
+      "price": "1211",
+      "description": "Star Wars The Black Series Archive\n\nFigura de Grand Admiral Thrawn a escala de 15 cm\n\nStar Wars Rebels - Edad: 4+",
+      "category": "starwars",
+      "id": 28
+    },
+    {
+      "name": "Aurra Sing 6",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099382802l.jpg",
+      "price": "823",
+      "description": "Ideal para regalo\n\nPasa horas de diversión\n\nAlienta su imaginación",
+      "category": "starwars",
+      "id": 29
+    },
+    {
+      "name": "Boba Fett ",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099380474-2l.jpg",
+      "price": "1189",
+      "description": "Star Wars The Black Series\n\nFigura coleccionable de Boba Fett a escala de 15 cm\n\nStar Wars: El regreso del Jedi - Edad: 4+",
+      "category": "starwars",
+      "id": 30
+    },
+    {
+      "name": "Figura Retro",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/1p/images/product-images/img_large/00501099380909-1l.jpg",
+      "price": "603",
+      "description": "Star Wars la colección Retro IG-11\n\nFigura de colección The Mandalorian a escala de 9,5 cm con accesorios\n\nEdad: 4+",
+      "category": "starwars",
+      "id": 31
+    },
+    {
+      "name": "Logitech G600",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/f50eeaae-3c9a-4769-9d87-7ac2f333d109.9cb22377803321636cf37ebd523373d7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+      "price": "1559",
+      "description": "20 botones MMO-afinados: incluye el panel único del pulgar de 12 botones diseñado para aprisa, navegación de la ninguno-mirada. ",
+      "category": "starwars",
+      "id": 32
+    },
+    {
+      "name": "Xtreme Pc USB",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/408c8bbd-464b-4b83-997a-2ce12b779bbc.09f8444208db51d17197cfb6e97c9a18.png?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+      "price": "159",
+      "description": "Retro iluminando de respiración.\n\nMotor óptico de alta gama, posicionamiento preciso.\n\nMáxima resolución: 1600DPI.",
+      "category": "diversos",
+      "id": 33
+    },
+    {
+      "name": "Redragon Kumara",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/6e45b18f-0b57-4251-aa97-ce561bf85e41.25685fda673c4c513fceb2348006d368.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+      "price": "1490",
+      "description": "Kit de Teclado Gamer Redragon Kumara White K55 LED RGB Mecánico 2en1 + Griffin RGB Blanco.",
+      "category": "diversos",
+      "id": 34
+    },
+    {
+      "name": "EVGA Z12 RGB",
+      "imageurl": "https://res.cloudinary.com/walmart-labs/image/upload/w_960,dpr_auto,f_auto,q_auto:best/mg/gm/3pp/asr/921e3c53-135e-4109-ae88-f9feaa71c27c.a54f66b9bd8666ada46733ad84252b5d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+      "price": "799",
+      "description": "Resistencia a derrames Los accidentes pasan. El teclado EVGA Z12 RGB te tiene cubierto. Su resistencia a derrames IP32 es capaz de resistir derrames ",
+      "category": "diversos",
+      "id": 35
+    }
+  ]
+}

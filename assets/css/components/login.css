@@ -16,7 +16,6 @@
 .login__title {
     font-size: var(--font-size-login);
     font-weight: 700;
-    margin-bottom: var(--margin-bottom-login-input);
 }
 
 .login__form {
@@ -32,15 +31,15 @@
 
 .login__input {
     background-color: var(--white-color);
-    margin-bottom: var(--margin-bottom-login-input);
+    margin:1rem 0 0.5rem 0;
     height: var(--height-input);
     border-bottom: 2px solid var(--input-border-color);
     outline: 0;
     width: 100%;
+    padding-left: 0.5rem;
 }
 
 .login__input::placeholder {
-    padding-left: 0.5rem;
     color: var(--gray-color);
     font-size: var(--font-size-footer-link);
 }
@@ -53,11 +52,25 @@
     width: 100%;
     height: var(--height-login-button);
     font-weight: 600;
+    margin-top: 1rem;
+    box-shadow: 0 0 40px 40px var(--button-color) inset, 0 0 0 0 var(--button-color);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 
 }
 
 .login__button:hover {
     cursor: pointer;
+    box-shadow: 0 0 10px 0 var(--button-color) inset, 0 0 10px 4px var(--button-color);
+    color: var(--button-color);
+    background-color: var(--primary-color);
+}
+
+
+.input-message-error-login{
+    margin-top: 1rem;
+    color: var(--info-color);
+    font-weight: 700;
 }
 
 /* RESPONSIVE */
@@ -69,5 +82,6 @@
 
     .login__button {
         width: 6.8rem;
+        margin-top: 0.5rem;
     }
 }

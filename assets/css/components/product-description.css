@@ -1,0 +1,127 @@
+
+.producto__descripcion-container{
+    display: flex;
+    flex-direction: row;
+    margin: 4rem 0;
+}
+
+.producto__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.producto__descr-img{
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.producto__descr-title{
+    font-size: 52px;
+    margin-bottom: 1rem;
+}
+
+.producto__descr-price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.producto__descr-description{
+    font-size: 16px;
+}
+
+.producto__box:nth-child(n+7) {
+    display: none !important;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1200px) {
+    .producto__box:nth-child(n+6) {
+        display: none !important;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .producto__box:nth-child(n+5) {
+        display: none !important;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .producto__descr-title{
+        font-size: 36px;
+    }
+
+    .productos__category {
+        margin: 3rem 0 !important;
+    }
+
+    .producto__box {
+        width: 10.25rem !important;
+    }
+
+    .producto__box:nth-child(n+5) {
+        display: none !important;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .producto__descripcion-container{
+        flex-direction: column;
+    }
+
+    .producto__descr-img{
+        width: 100%;
+        margin: 0 0 2rem 0;
+    }
+
+    .producto__info{
+        align-items: flex-start;
+    }
+
+    .productos__category {
+        margin: 2rem 0 !important;
+    }
+
+    .productos__header {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important ;
+        margin-bottom: 1rem!important;
+    }
+
+    .productos__line {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.5rem !important;
+    }
+
+    .producto__box {
+        width: 9rem !important;
+    }
+
+    .producto__box:nth-child(4) {
+        display: grid !important;
+    }
+
+}
+
+
+

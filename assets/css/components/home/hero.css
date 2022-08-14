@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: var(--height-hero);
+    box-shadow: var(--box-shadow);
 
 }
 
@@ -31,11 +32,19 @@
     width: var(--width-hero-button);
     height: var(--height-hero-button);
     margin: 1rem 0 3rem 0;
+    color: var(--primary-color);
+    box-shadow: 0 0 40px 40px var(--button-color) inset, 0 0 0 0 var(--button-color);
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .hero__title-button:hover{
     cursor: pointer;
+    box-shadow: 0 0 10px 0 var(--button-color) inset, 0 0 10px 4px var(--button-color);
+    color: var(--button-color);
+    background-color: var(--primary-color);
 }
+
 
 .hero__title__subsection {
     font-size: var(--font-size-subsection);
@@ -49,6 +58,7 @@
     color: var(--primary-color);
     font-weight: 700;
 }
+/* RESPONSIVE */
 
 @media (max-width: 768px) {
     .hero__title-button {

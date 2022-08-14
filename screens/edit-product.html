@@ -43,15 +43,15 @@
         </div>
         <div class="header__resultado"></div>
     </header>
-    <button class="header__login-boton"><a href="/screens/products-admin.html">Menú Administrador</a></button>
+    <button class="header__login-boton"><a href="/screens/products.html">Menú Administrador</a></button>
     <i class="header__buscador-icon-responsive fa fa-search"></i>
 </section>
 
 
-    <!-- Sección Nuevo Producto -->
+    <!-- Sección Editar Producto -->
     <section class="new-product container">
         <div class="new-product__container">
-            <h2 class="new-producto__title">Agregar nuevo producto</h2>
+            <h2 class="new-producto__title">Editar producto</h2>
 
             <form action="" class="new-producto__form" data-form>
                 <div class="new-producto__input-container">
@@ -86,15 +86,16 @@
 
                
 
-                <input type="submit" value="Agregar producto" class="new-producto__button">
+                <input type="submit" value="Editar producto" class="new-producto__button">
             </form>
         </div>
     </section>
 
+
     <!-- Script del documento JavaScript -->
-    <script type="module" src="/controllers/crear-productos-controller.js"></script>
-    <script type="module" src="/controllers/inputs-controller.js"></script>
-    <script type="module" src="/controllers/buscar-productos-controller.js"></script>
+    <script type="module" src="../controllers/actualizar-productos-controller.js"></script>
+    <script type="module" src="../controllers/inputs-controller.js"></script>
+    <script type="module" src="../controllers/buscar-productos-controller.js"></script>
 </body>
 
 </html>

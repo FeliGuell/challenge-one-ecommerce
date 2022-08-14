@@ -5,12 +5,17 @@
   --button-color: #2A7AE4;
   --contrast-dark-color: #464646;
   --contrast-ligth-color: #EEEEEE;
+  --info-color:#df2525;
   --gray-color: #A2A2A2;
   --input-border-color: #C8C8C8;
   --primary-color: #F5F5F5;
   --secundary-color: #EAF2FD;
+  --sucess-color: #047900;
   --white-color: #ffffff;
 
+  /* Box shadows */
+  --box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --box-shadow-hover:0 4px 8px 0 rgba(42, 122, 228, 0.2), 0 6px 20px 0 rgba(42, 122, 228, 0.19);
 
   /* Font-size */
   --font-size-button: 16px;
@@ -22,6 +27,8 @@
   --font-size-productos-title: 32px;
   --font-size-productos-vertodo: 16px;
   --font-size-productos-info: 14px;
+  --font-size-register-complete:24px;
+  --font-size-register-icon:48px;
   --font-size-rodapie: 16px;
 
 
@@ -35,12 +42,11 @@
   --height-input:3.5rem;
   --height-login-container: 18rem;
   --height-login-button:3.875rem;
-  --height-producto-img: 100%;
+  --height-producto-img: 10.87rem;
   --height-textarea:5.125rem;
 
 
   /* Margin */
-  --margin-bottom-login-input:1.5rem;
   --margin-left-header-buscador: 3rem;
 
   /* Padding */
@@ -52,7 +58,7 @@
   --width-header-button: 11rem;
   --width-hero-button: 9rem;
   --width-login-container: 26rem;
-  --width-producto-img: 100%;
+  --width-producto-img: 11rem;
 
 }
 
@@ -65,6 +71,8 @@
     --font-size-new-product-title: 22px;
     --font-size-productos-title: 22px;
     --font-size-productos-vertodo: 16px;
+    --font-size-register-complete:16px;
+    --font-size-register-icon:30px;
     --font-size-rodapie: 14px;
 
 
@@ -75,7 +83,7 @@
     --height-header-button: 2.5rem;
     --height-hero-button: 2.5rem;
     --height-input:2.5rem;
-    --height-login-container: 12rem;
+    --height-login-container: 14rem;
     --height-login-button: 2.5rem;
     --height-producto-img: 10.875rem;
 
@@ -105,6 +113,8 @@
     --font-size-hero-title: 22px;
     --font-size-hero-subsection: 14px;
     --font-size-productos-vertodo: 14px;
+    --font-size-register-complete:12px;
+    --font-size-register-icon:26px;
 
     /* Height */
     --height-footer: 35rem;
