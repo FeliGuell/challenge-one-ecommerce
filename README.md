@@ -46,9 +46,9 @@ Debe tener instalado Node.js para poder instalar la librería utilizada</br></br
 
 ## ⬇️ Download
 
-1 - Descargue o clone el repositorio
-2 - Instalar en alguna terminal de Visual Studio Code u otro IDE, la siguiente librería npm install -g json-server
-3 - Ejecutar en la terminal json-server --watch db.json
-4 - Por último abrir el proyecto en un navegador Web 
+1 - Descargue o clone el repositorio </br>
+2 - Instalar en alguna terminal de Visual Studio Code u otro IDE, la siguiente librería npm install -g json-server </br>
+3 - Ejecutar en la terminal json-server --watch db.json </br>
+4 - Por último abrir el proyecto en un navegador Web  </br>
 
 
