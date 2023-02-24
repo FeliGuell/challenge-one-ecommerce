@@ -53,3 +53,13 @@ Debe tener instalado Node.js para poder instalar la librería utilizada</br></br
 5 - http://127.0.0.1:5500/ </br>
 
 
+
+## DEMO
+
+url: http://noticias-egg.us-east-2.elasticbeanstalk.com/login
+
+ADMIN->
+usuario: admin
+password: 123456
+
+
