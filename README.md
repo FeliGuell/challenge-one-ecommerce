@@ -54,12 +54,5 @@ Debe tener instalado Node.js para poder instalar la librería utilizada</br></br
 
 
 
-## DEMO
-
-url: http://noticias-egg.us-east-2.elasticbeanstalk.com/login
-
-ADMIN->
-usuario: admin
-password: 123456
 
 
