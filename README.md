@@ -45,8 +45,8 @@ Debe tener instalado Node.js para poder instalar la librería utilizada</br></br
 1 - Descargue o clone el repositorio </br>
 2 - Instalar en alguna terminal de Visual Studio Code u otro IDE, la siguiente librería npm install -g json-server </br>
 3 - Ejecutar en la terminal json-server --watch db.json </br>
-4 - Por último abrir el proyecto en un navegador Web  </br>
-5 - http://127.0.0.1:5500/screens/home.html </br>
+4 - Por último abrir screens/home.html con Live Server </br>
+5 - Debería quedarte una ruta como esta: http://127.0.0.1:5500/screens/home.html</br>
 
 
 
