@@ -4,7 +4,7 @@
 
 ## 🖥️ Descripción del Proyecto:
 
-Consiste en el desarrollo Front-End de un e-commerce, tienda AluraGeek, en donde se pueden administrar los productos y contactarse mediante un formulario. 
+Consiste en el desarrollo Front-End de un e-commerce, tienda AluraGeek, en donde se pueden administrar los productos y contactarse mediante un formulario.
 
 </br>
 
@@ -20,6 +20,7 @@ Consiste en el desarrollo Front-End de un e-commerce, tienda AluraGeek, en donde
 ---
 ## 🖥️ Tecnologías Utilizadas:
 
+- Json Server
 - CSS Flexbox
 - CSS Grid
 - Layouts Resposivos
@@ -37,6 +38,7 @@ Consiste en el desarrollo Front-End de un e-commerce, tienda AluraGeek, en donde
 
 Recomiendo usar el editor Visual Studio Code para poder ejecutar el proyecto </br></br>
 Debe tener instalado Node.js para poder instalar la librería utilizada</br></br>
+Con Json Server se simula una API para poder manipular un archivo json(db.json) que funciona como si fuera una base de datos</br></br>
 
 ---
 
@@ -48,7 +50,11 @@ Debe tener instalado Node.js para poder instalar la librería utilizada</br></br
 4 - Por último abrir screens/home.html con Live Server </br>
 5 - Debería quedarte una ruta como esta: http://127.0.0.1:5500/screens/home.html</br>
 
+## Demostración
 
-
+### Captura de pantalla
+![Captura de pantalla_18-6-2024_132459_127 0 0 1](https://github.com/FeliGuell/challenger-one-ecommerce/assets/89422098/878aeffd-d48b-4b5c-a6d9-9404b5a740b3)
+![Captura de pantalla_18-6-2024_132551_127 0 0 1](https://github.com/FeliGuell/challenger-one-ecommerce/assets/89422098/66351ae2-49f0-4e9c-a6ee-180609c220d8)
+![Captura de pantalla_18-6-2024_132617_127 0 0 1](https://github.com/FeliGuell/challenger-one-ecommerce/assets/89422098/d1607699-622c-403f-8a66-76fa6fac6521)
 
 
