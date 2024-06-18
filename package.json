@@ -2,8 +2,7 @@
   "name": "challenger-one-ecommerce",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "vercel-build": "echo 'vercel-build script'"
+    "start": "json-server --watch db.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.16.3"
