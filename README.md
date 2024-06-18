@@ -50,6 +50,8 @@ Con Json Server se simula una API para poder manipular un archivo json(db.json) 
 4 - Por último abrir screens/home.html con Live Server </br>
 5 - Debería quedarte una ruta como esta: http://127.0.0.1:5500/screens/home.html</br>
 
+---
+
 ## Demostración
 
 ### Captura de pantalla
