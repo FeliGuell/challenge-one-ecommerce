@@ -16,6 +16,9 @@ Consiste en el desarrollo Front-End de un e-commerce, tienda AluraGeek, en donde
 - `Funcionalidad 4`:Cuenta con una barra de busqueda para los productos.
 - `Funcionalidad 5`:Al final de cada página puede rellenar un formulario para contactarse.
 
+---
+## DEMO:
+**https://www.linkedin.com/posts/feliguellweb_muestro-un-proyecto-realizado-a-partir-activity-6986045124560490497-vXVf?utm_source=share&utm_medium=member_desktop**
 
 ---
 ## 🖥️ Tecnologías Utilizadas:
